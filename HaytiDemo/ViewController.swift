@@ -10,8 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var updateLabel: UILabel!
     @IBAction func cars(_ sender: Any) {
+        updateLabel.alpha=1
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.updateLabel.alpha = 0
+        }
         
+    }
+    
+    
+    func BackgroundProcess() {
+        DispatchQueue.global(qos: .background).async {
+            //background code
+            DispatchQueue.main.async {
+                // self.activityIndicatorCall()
+            
+            }
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()

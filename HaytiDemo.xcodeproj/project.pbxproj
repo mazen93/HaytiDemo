@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312E466321209489008C39F6 /* scrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E466221209489008C39F6 /* scrolViewController.swift */; };
 		3193F11021205B99000E3C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193F10F21205B99000E3C59 /* AppDelegate.swift */; };
 		3193F11221205B99000E3C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193F11121205B99000E3C59 /* ViewController.swift */; };
 		3193F11521205B99000E3C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3193F11321205B99000E3C59 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		312E466221209489008C39F6 /* scrolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrolViewController.swift; sourceTree = "<group>"; };
 		3193F10C21205B99000E3C59 /* HaytiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaytiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3193F10F21205B99000E3C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3193F11121205B99000E3C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				3193F10F21205B99000E3C59 /* AppDelegate.swift */,
 				3193F11121205B99000E3C59 /* ViewController.swift */,
+				312E466221209489008C39F6 /* scrolViewController.swift */,
 				3193F11321205B99000E3C59 /* Main.storyboard */,
 				3193F11621205B9F000E3C59 /* Assets.xcassets */,
 				3193F11821205B9F000E3C59 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3193F11221205B99000E3C59 /* ViewController.swift in Sources */,
+				312E466321209489008C39F6 /* scrolViewController.swift in Sources */,
 				3193F11021205B99000E3C59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
