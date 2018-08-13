@@ -9,6 +9,18 @@
 import UIKit
 
 class scrolViewController: UIViewController {
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return 1
+//
+    
+    
+    
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//
+//
+//
+//    }
+//
     
     let animation = 0.0
 
@@ -18,66 +30,66 @@ class scrolViewController: UIViewController {
     @IBOutlet weak var tbv2: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        TableV.isHidden = true
-       
-       
-        tbv2.isHidden = true
+//
+//        TableV.isHidden = true
+//
+//
+//        tbv2.isHidden = true
     }
 
    
-    @IBAction func onClickDrob(_ sender: Any) {
-        if TableV.isHidden {
-            animate(toogle: true)
-        } else {
-            animate(toogle: false)
-        }
-    }
-        func animate(toogle:Bool) {
-            if toogle {
-                UIView.animate(withDuration: 0.3) {
-                    self.TableV.isHidden = false
-                }
-                
-            } else {
-                UIView.animate(withDuration: 0.3) {
-                    self.TableV.isHidden = true
-                }
-                
-            }
-        }
-        
-        
-            
-            
-    
-    
-    
-    @IBAction func OnClickDrob2(_ sender: Any) {
-        if tbv2.isHidden {
-            pubic(toogle: true)
-        } else {
-            pubic(toogle: false)
-        }
-        
-        
-    }
-    func pubic(toogle:Bool) {
-        if toogle {
-            UIView.animate(withDuration: 0.3) {
-                self.tbv2.isHidden = false
-            }
-            
-            
-        } else {
-            UIView.animate(withDuration: 0.3) {
-                self.tbv2.isHidden = true
-            }
-            
-        }
-    }
-    
-    
-    
+//    @IBAction func onClickDrob(_ sender: Any) {
+//        if TableV.isHidden {
+//            animate(toogle: true)
+//        } else {
+//            animate(toogle: false)
+//        }
+//    }
+//        func animate(toogle:Bool) {
+//            if toogle {
+//                UIView.animate(withDuration: 0.3) {
+//                    self.TableV.isHidden = false
+//                }
+//
+//            } else {
+//                UIView.animate(withDuration: 0.3) {
+//                    self.TableV.isHidden = true
+//                }
+//
+//            }
+//        }
+//
+//
+//
+//
+//
+//
+//
+//    @IBAction func OnClickDrob2(_ sender: Any) {
+//        if tbv2.isHidden {
+//            pubic(toogle: true)
+//        } else {
+//            pubic(toogle: false)
+//        }
+//
+//
+//    }
+//    func pubic(toogle:Bool) {
+//        if toogle {
+//            UIView.animate(withDuration: 0.3) {
+//                self.tbv2.isHidden = false
+//            }
+//
+//
+//        } else {
+//            UIView.animate(withDuration: 0.3) {
+//                self.tbv2.isHidden = true
+//            }
+//
+//        }
+//    }
+//
+//
+//
 }
 
