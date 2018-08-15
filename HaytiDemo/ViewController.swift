@@ -8,8 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController,UITextFieldDelegate{
+    @IBOutlet weak var UserNameRegister: UITextField!
+    @IBOutlet weak var EmailTfRegister: UITextField!
+    
+    @IBOutlet weak var PasswordTfRegister: UITextField!
+    
+    @IBOutlet weak var PhoneNumber: UITextField!
+    
     @IBOutlet weak var updateLabel: UILabel!
     @IBAction func cars(_ sender: Any) {
         updateLabel.alpha=1

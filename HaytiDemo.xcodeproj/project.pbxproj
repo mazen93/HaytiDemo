@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		311927D02124300200911C9B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311927CF2124300200911C9B /* RegisterViewController.swift */; };
+		311927D22124322100911C9B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311927D12124322100911C9B /* LoginViewController.swift */; };
 		312E045B2121A7590009BD94 /* LastPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E045A2121A7590009BD94 /* LastPageViewController.swift */; };
 		312E466321209489008C39F6 /* scrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E466221209489008C39F6 /* scrolViewController.swift */; };
 		3193F11021205B99000E3C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193F10F21205B99000E3C59 /* AppDelegate.swift */; };
@@ -14,9 +16,16 @@
 		3193F11521205B99000E3C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3193F11321205B99000E3C59 /* Main.storyboard */; };
 		3193F11721205B9F000E3C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3193F11621205B9F000E3C59 /* Assets.xcassets */; };
 		3193F11A21205B9F000E3C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3193F11821205B9F000E3C59 /* LaunchScreen.storyboard */; };
+		31DA1D4C2122C72900CABED1 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DA1D4B2122C72900CABED1 /* ItemViewController.swift */; };
+		31DA1D4E2122CC6E00CABED1 /* pViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DA1D4D2122CC6E00CABED1 /* pViewController.swift */; };
+		31DA1D502122E27E00CABED1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31DA1D4F2122E27E00CABED1 /* GoogleService-Info.plist */; };
+		31DA1D52212300DF00CABED1 /* sViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DA1D51212300DF00CABED1 /* sViewController.swift */; };
+		655243B013BBCFDD98B4DE30 /* Pods_HaytiDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989F95F8053987A2A76C7F97 /* Pods_HaytiDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		311927CF2124300200911C9B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		311927D12124322100911C9B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		312E045A2121A7590009BD94 /* LastPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPageViewController.swift; sourceTree = "<group>"; };
 		312E466221209489008C39F6 /* scrolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrolViewController.swift; sourceTree = "<group>"; };
 		3193F10C21205B99000E3C59 /* HaytiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaytiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +35,13 @@
 		3193F11621205B9F000E3C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3193F11921205B9F000E3C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3193F11B21205B9F000E3C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DA1D4B2122C72900CABED1 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		31DA1D4D2122CC6E00CABED1 /* pViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pViewController.swift; sourceTree = "<group>"; };
+		31DA1D4F2122E27E00CABED1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31DA1D51212300DF00CABED1 /* sViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sViewController.swift; sourceTree = "<group>"; };
+		56C452EAB5C47E963FEADA3B /* Pods-HaytiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaytiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaytiDemo/Pods-HaytiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		989F95F8053987A2A76C7F97 /* Pods_HaytiDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaytiDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65F4FDFA0D8653A4F967287 /* Pods-HaytiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaytiDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaytiDemo/Pods-HaytiDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655243B013BBCFDD98B4DE30 /* Pods_HaytiDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				3193F10E21205B99000E3C59 /* HaytiDemo */,
 				3193F10D21205B99000E3C59 /* Products */,
+				F074BC2814D766821A97023F /* Pods */,
+				95BE68C8727898770F9727DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +79,37 @@
 			children = (
 				3193F10F21205B99000E3C59 /* AppDelegate.swift */,
 				3193F11121205B99000E3C59 /* ViewController.swift */,
+				31DA1D4D2122CC6E00CABED1 /* pViewController.swift */,
 				312E466221209489008C39F6 /* scrolViewController.swift */,
 				3193F11321205B99000E3C59 /* Main.storyboard */,
+				311927CF2124300200911C9B /* RegisterViewController.swift */,
+				311927D12124322100911C9B /* LoginViewController.swift */,
+				31DA1D51212300DF00CABED1 /* sViewController.swift */,
+				31DA1D4B2122C72900CABED1 /* ItemViewController.swift */,
 				312E045A2121A7590009BD94 /* LastPageViewController.swift */,
+				31DA1D4F2122E27E00CABED1 /* GoogleService-Info.plist */,
 				3193F11621205B9F000E3C59 /* Assets.xcassets */,
 				3193F11821205B9F000E3C59 /* LaunchScreen.storyboard */,
 				3193F11B21205B9F000E3C59 /* Info.plist */,
 			);
 			path = HaytiDemo;
+			sourceTree = "<group>";
+		};
+		95BE68C8727898770F9727DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				989F95F8053987A2A76C7F97 /* Pods_HaytiDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F074BC2814D766821A97023F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E65F4FDFA0D8653A4F967287 /* Pods-HaytiDemo.debug.xcconfig */,
+				56C452EAB5C47E963FEADA3B /* Pods-HaytiDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3193F11E21205B9F000E3C59 /* Build configuration list for PBXNativeTarget "HaytiDemo" */;
 			buildPhases = (
+				DA29E9520AF73370F76A1C0D /* [CP] Check Pods Manifest.lock */,
 				3193F10821205B99000E3C59 /* Sources */,
 				3193F10921205B99000E3C59 /* Frameworks */,
 				3193F10A21205B99000E3C59 /* Resources */,
+				382E31B04137570556489FF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,18 +175,69 @@
 				3193F11A21205B9F000E3C59 /* LaunchScreen.storyboard in Resources */,
 				3193F11721205B9F000E3C59 /* Assets.xcassets in Resources */,
 				3193F11521205B99000E3C59 /* Main.storyboard in Resources */,
+				31DA1D502122E27E00CABED1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		382E31B04137570556489FF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HaytiDemo/Pods-HaytiDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaytiDemo/Pods-HaytiDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA29E9520AF73370F76A1C0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HaytiDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3193F10821205B99000E3C59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				311927D22124322100911C9B /* LoginViewController.swift in Sources */,
+				31DA1D52212300DF00CABED1 /* sViewController.swift in Sources */,
 				3193F11221205B99000E3C59 /* ViewController.swift in Sources */,
+				31DA1D4E2122CC6E00CABED1 /* pViewController.swift in Sources */,
+				311927D02124300200911C9B /* RegisterViewController.swift in Sources */,
 				312E466321209489008C39F6 /* scrolViewController.swift in Sources */,
+				31DA1D4C2122C72900CABED1 /* ItemViewController.swift in Sources */,
 				3193F11021205B99000E3C59 /* AppDelegate.swift in Sources */,
 				312E045B2121A7590009BD94 /* LastPageViewController.swift in Sources */,
 			);
@@ -286,6 +381,7 @@
 		};
 		3193F11F21205B9F000E3C59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65F4FDFA0D8653A4F967287 /* Pods-HaytiDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +399,7 @@
 		};
 		3193F12021205B9F000E3C59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C452EAB5C47E963FEADA3B /* Pods-HaytiDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
