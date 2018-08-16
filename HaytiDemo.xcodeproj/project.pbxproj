@@ -11,8 +11,8 @@
 		311927D22124322100911C9B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311927D12124322100911C9B /* LoginViewController.swift */; };
 		312E045B2121A7590009BD94 /* LastPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E045A2121A7590009BD94 /* LastPageViewController.swift */; };
 		312E466321209489008C39F6 /* scrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E466221209489008C39F6 /* scrolViewController.swift */; };
+		312F4C78212584380047066A /* aaaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F4C77212584380047066A /* aaaViewController.swift */; };
 		3193F11021205B99000E3C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193F10F21205B99000E3C59 /* AppDelegate.swift */; };
-		3193F11221205B99000E3C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193F11121205B99000E3C59 /* ViewController.swift */; };
 		3193F11521205B99000E3C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3193F11321205B99000E3C59 /* Main.storyboard */; };
 		3193F11721205B9F000E3C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3193F11621205B9F000E3C59 /* Assets.xcassets */; };
 		3193F11A21205B9F000E3C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3193F11821205B9F000E3C59 /* LaunchScreen.storyboard */; };
@@ -28,9 +28,9 @@
 		311927D12124322100911C9B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		312E045A2121A7590009BD94 /* LastPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastPageViewController.swift; sourceTree = "<group>"; };
 		312E466221209489008C39F6 /* scrolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrolViewController.swift; sourceTree = "<group>"; };
+		312F4C77212584380047066A /* aaaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaViewController.swift; sourceTree = "<group>"; };
 		3193F10C21205B99000E3C59 /* HaytiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaytiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3193F10F21205B99000E3C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3193F11121205B99000E3C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3193F11421205B99000E3C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3193F11621205B9F000E3C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3193F11921205B9F000E3C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3193F10F21205B99000E3C59 /* AppDelegate.swift */,
-				3193F11121205B99000E3C59 /* ViewController.swift */,
+				312F4C77212584380047066A /* aaaViewController.swift */,
 				31DA1D4D2122CC6E00CABED1 /* pViewController.swift */,
 				312E466221209489008C39F6 /* scrolViewController.swift */,
 				3193F11321205B99000E3C59 /* Main.storyboard */,
@@ -233,12 +233,12 @@
 			files = (
 				311927D22124322100911C9B /* LoginViewController.swift in Sources */,
 				31DA1D52212300DF00CABED1 /* sViewController.swift in Sources */,
-				3193F11221205B99000E3C59 /* ViewController.swift in Sources */,
 				31DA1D4E2122CC6E00CABED1 /* pViewController.swift in Sources */,
 				311927D02124300200911C9B /* RegisterViewController.swift in Sources */,
 				312E466321209489008C39F6 /* scrolViewController.swift in Sources */,
 				31DA1D4C2122C72900CABED1 /* ItemViewController.swift in Sources */,
 				3193F11021205B99000E3C59 /* AppDelegate.swift in Sources */,
+				312F4C78212584380047066A /* aaaViewController.swift in Sources */,
 				312E045B2121A7590009BD94 /* LastPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

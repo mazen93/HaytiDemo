@@ -16,14 +16,19 @@ class ViewController: UIViewController,UITextFieldDelegate{
     
     @IBOutlet weak var PhoneNumber: UITextField!
     
-    @IBOutlet weak var updateLabel: UILabel!
-    @IBAction func cars(_ sender: Any) {
-        updateLabel.alpha=1
+    @IBOutlet weak var update: UILabel!
+    
+  
+        
+    
+    @IBAction func button(_ sender: Any) {
+        update.alpha=1
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.updateLabel.alpha = 0
         }
         
     }
+    
     
     
     func BackgroundProcess() {
